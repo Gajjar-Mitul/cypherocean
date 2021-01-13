@@ -66,12 +66,12 @@
         <div class="col-12 hero-text-image">
           <div class="row">
             <div class="col-lg-7 text-center text-lg-left">
-              <h1 data-aos="fade-right">Promote Your App with SoftLand</h1>
-              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit.</p>
-              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Get started</a></p>
+              <h1 data-aos="fade-right">Create Your Site with Cypherocean</h1>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100"></p>
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Get Qutation</a></p>
             </div>
             <div class="col-lg-5 iphone-wrap">
+              
               <img src="assets/img/phone_1.png" alt="Image" class="phone-1" data-aos="fade-right">
               <img src="assets/img/phone_2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
             </div>
@@ -90,7 +90,7 @@
 
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-5" data-aos="fade-up">
-            <h2 class="section-heading">Save your time to using Cypherocean</h2>
+            <h2 class="section-heading">Save your time to using SoftLand</h2>
           </div>
         </div>
 
@@ -379,6 +379,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<a href='https://www.freepik.com/vectors/design'>Design vector created by pikisuperstar - www.freepik.com</a>
 </body>
-
 </html>
