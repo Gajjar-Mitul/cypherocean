@@ -29,7 +29,7 @@
           <div class="col-12">
             <div class="row justify-content-center">
               <div class="col-md-7 text-center hero-text">
-                <h1 data-aos="fade-up" data-aos-delay="">Get in touch</h1>
+                <h1 data-aos="fade-up" data-aos-delay="">Get in Touch</h1>
                 <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Send Your Queries To Us</p>
               </div>
             </div>
