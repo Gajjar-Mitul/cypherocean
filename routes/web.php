@@ -24,3 +24,23 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/web_development', function () {
+    return view('web_development');
+});
+
+Route::get('/app_development', function () {
+    return view('app_development');
+});
+
+Route::get('/uiux_design', function () {
+    return view('uiux_design');
+});
+
+Route::get('/logo_design', function () {
+    return view('logo_design');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
