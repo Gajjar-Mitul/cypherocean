@@ -1,53 +1,17 @@
-@extends('layout.header')
-@section('title','Create Appointment')
-@section('content')
+@extends('layout.app')
 
-  <!-- ======= Header ======= -->
-  <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+@section('meta')
+@endsection
 
-    <div class="container">
-      <div class="row align-items-center">
+@section('title')
+  Home
+@endsection
 
-        <div class="col-6 col-lg-2">
-          <h1 class="mb-0 site-logo"><a href="index.html" class="mb-0">Cypehr-Ocean</a></h1>
-        </div>
+@section('styles')
+@endsection
 
-        <div class="col-12 col-md-10 d-none d-lg-block">
-          <nav class="site-navigation position-relative text-right" role="navigation">
-
-            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-              <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="features.html" class="nav-link">About Us</a></li>
-              <li><a href="pricing.html" class="nav-link">Portfolio</a></li>
-
-              <li class="has-children">
-                <a href="blog.html" class="nav-link">Services</a>
-                <ul class="dropdown">
-                  <li><a href="blog.html" class="nav-link">Web Developling</a></li>
-                  <li><a href="blog-single.html" class="nav-link">Web Designing</a></li>
-                  <li><a href="blog-single.html" class="nav-link">Application</a></li>
-                  <li><a href="blog-single.html" class="nav-link">Branding</a></li>
-                </ul>
-              </li>
-              <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="col-6 d-inline-block d-lg-none ml-md-0 py-3" style="position: relative; top: 3px;">
-
-          <a href="#" class="burger site-menu-toggle js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
-            <span></span>
-          </a>
-        </div>
-
-      </div>
-    </div>
-
-  </header>
-
-  <!-- ======= Hero Section ======= -->
-  <section class="hero-section" id="hero">
+@section('hero')
+ <section class="hero-section" id="hero">
 
     <div class="wave">
 
@@ -66,14 +30,14 @@
         <div class="col-12 hero-text-image">
           <div class="row">
             <div class="col-lg-7 text-center text-lg-left">
-              <h1 data-aos="fade-right">Create Your Site with Cypherocean</h1>
-              <p class="mb-5" data-aos="fade-right" data-aos-delay="100"></p>
-              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Get Qutation</a></p>
+              <h1 data-aos="fade-right">Promote Your App with SoftLand</h1>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit.</p>
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Get started</a></p>
             </div>
             <div class="col-lg-5 iphone-wrap">
-              
-              <img src="assets/img/phone_1.png" alt="Image" class="phone-1" data-aos="fade-right">
-              <img src="assets/img/phone_2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
+              <img src="{{ asset('assets/img/phone_1.png') }}" alt="Image" class="phone-1" data-aos="fade-right">
+              <img src="{{ asset('assets/img/phone_2.png') }}" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
             </div>
           </div>
         </div>
@@ -82,9 +46,9 @@
 
   </section><!-- End Hero -->
 
-  <main id="main">
+@endsection
 
-    <!-- ======= Home Section ======= -->
+@section('content')
     <section class="section">
       <div class="container">
 
@@ -224,7 +188,7 @@
                 </blockquote>
 
                 <p class="review-user">
-                  <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                  <img src="{{ asset('assets/img/person_1.jpg') }}" alt="Image" class="img-fluid rounded-circle mb-3">
                   <span class="d-block">
                     <span class="text-black">Jean Doe</span>, &mdash; App User
                   </span>
@@ -248,7 +212,7 @@
                 </blockquote>
 
                 <p class="review-user">
-                  <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                  <img src="{{ asset('assets/img/person_2.jpg') }}" alt="Image" class="img-fluid rounded-circle mb-3">
                   <span class="d-block">
                     <span class="text-black">Johan Smith</span>, &mdash; App User
                   </span>
@@ -272,7 +236,7 @@
                 </blockquote>
 
                 <p class="review-user">
-                  <img src="assets/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                  <img src="{{ asset('assets/img/person_3.jpg') }}" alt="Image" class="img-fluid rounded-circle mb-3">
                   <span class="d-block">
                     <span class="text-black">Jean Thunberg</span>, &mdash; App User
                   </span>
@@ -285,100 +249,9 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= CTA Section ======= -->
-    <section class="section cta-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mr-auto text-center text-md-left mb-5 mb-md-0">
-            <h2>Starts Publishing Your Apps</h2>
-          </div>
-          <div class="col-md-5 text-center text-md-right">
-            <p><a href="#" class="btn"><span class="icofont-brand-apple mr-3"></span>App store</a> <a href="#" class="btn"><span class="icofont-ui-play mr-3"></span>Google play</a></p>
-          </div>
-        </div>
-      </div>
-    </section><!-- End CTA Section -->
+    
+    
+@endsection
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h3>About SoftLand</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
-            dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
-          <p class="social">
-            <a href="#"><span class="icofont-twitter"></span></a>
-            <a href="#"><span class="icofont-facebook"></span></a>
-            <a href="#"><span class="icofont-dribbble"></span></a>
-            <a href="#"><span class="icofont-behance"></span></a>
-          </p>
-        </div>
-        <div class="col-md-7 ml-auto">
-          <div class="row site-section pt-0">
-            <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Navigation</h3>
-              <ul class="list-unstyled">
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Services</h3>
-              <ul class="list-unstyled">
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Collaboration</a></li>
-                <li><a href="#">Todos</a></li>
-                <li><a href="#">Events</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Downloads</h3>
-              <ul class="list-unstyled">
-                <li><a href="#">Get from the App Store</a></li>
-                <li><a href="#">Get from the Play Store</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center text-center">
-        <div class="col-md-7">
-          <p class="copyright">&copy; Copyright SoftLand. All Rights Reserved</p>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=SoftLand
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </footer>
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-<a href='https://www.freepik.com/vectors/design'>Design vector created by pikisuperstar - www.freepik.com</a>
-</body>
-</html>
+@section('scripts')
+@endsection
