@@ -8,6 +8,13 @@
 @endsection
 
 @section('styles')
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+<link rel="preload" as="style" href="{{ asset('assets/css/google_font.css') }}"/>
+<link rel="stylesheet" href="{{ asset('assets/css/google_font2.css') }}" media="print" onload="this.media='all'"/>
+<noscript>
+  <link rel="stylesheet" href="{{ asset('assets/css/google_font3.css') }}"/>
+</noscript>
+<link href="{{ asset('assets/css/main.css?ver=1.2.0')}}" rel="stylesheet">
 @endsection
 
 @section('hero')
@@ -44,101 +51,180 @@
 @section('content')
      <section class="section pb-0">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4">
-            <div class="post-entry">
-              <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_1.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-text">
-                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
-                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                <p><a href="#" class="readmore">Read more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="post-entry">
-              <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-text">
-                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
-                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                <p><a href="#" class="readmore">Read more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="post-entry">
-              <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-text">
-                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
-                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                <p><a href="#" class="readmore">Read more</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="post-entry">
-              <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_4.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-text">
-                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
-                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                <p><a href="#" class="readmore">Read more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="post-entry">
-              <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-text">
-                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
-                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                <p><a href="#" class="readmore">Read more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="post-entry">
-              <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-text">
-                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
-                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                <p><a href="#" class="readmore">Read more</a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
         <div class="row">
-          <div class="col-12 text-center">
-            <span class="p-3 active text-primary">1</span>
-            <a href="#" class="p-3">2</a>
-            <a href="#" class="p-3">3</a>
-            <a href="#" class="p-3">4</a>
+          <div class="col-sm-12">
+            <a class="btn btn-primary pp-filter-button" href="#" data-filter="all">All</a>
+            <a class="btn btn-outline-primary pp-filter-button" href="#" data-filter="people">B2B</a>
+            <a class="btn btn-outline-primary pp-filter-button" href="#" data-filter="nature">Client</a>
           </div>
         </div>
       </div>
 
+      <div class="container">
+
+  <div class="pp-gallery">
+    <div class="card-columns">
+      <div class="card" data-groups="[&quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/1-nature.jpg" alt="Nature"/>
+            <figcaption>
+              <div class="h4">Forest</div>
+              <p>Nature</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/2-nature.jpg" alt="Nature"/>
+            <figcaption>
+              <div class="h4">Bird</div>
+              <p>Nature</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/4-nature.jpg" alt="Nature"/>
+            <figcaption>
+              <div class="h4">Sunrise</div>
+              <p>Nature</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/5-nature.jpg" alt="Nature"/>
+            <figcaption>
+              <div class="h4">Greenery</div>
+              <p>Nature</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/8-nature.jpg" alt="Nature"/>
+            <figcaption>
+              <div class="h4">Bird</div>
+              <p>Nature</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/9-nature.jpg" alt="Nature"/>
+            <figcaption>
+              <div class="h4">Flower</div>
+              <p>Nature</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;people&quot; , &quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/10-people.jpg" alt="People"/>
+            <figcaption>
+              <div class="h4">Model</div>
+              <p>People</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;people&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/11-people.jpg" alt="People"/>
+            <figcaption>
+              <div class="h4">Cute</div>
+              <p>People</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;people&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/13-people.jpg" alt="People"/>
+            <figcaption>
+              <div class="h4">Model</div>
+              <p>People</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;people&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/14-people.jpg" alt="People"/>
+            <figcaption>
+              <div class="h4">Model</div>
+              <p>People</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;people&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/16-people.jpg" alt="People"/>
+            <figcaption>
+              <div class="h4">Model</div>
+              <p>People</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;people&quot; , &quot;nature&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/17-people.jpg" alt="People"/>
+            <figcaption>
+              <div class="h4">Model</div>
+              <p>People</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;computer&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/18-computer.jpg" alt="Computer"/>
+            <figcaption>
+              <div class="h4">Laptop</div>
+              <p>Computer</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;computer&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/19-computer.jpg" alt="Computer"/>
+            <figcaption>
+              <div class="h4">Laptop</div>
+              <p>Computer</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;computer&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/20-computer.jpg" alt="Computer"/>
+            <figcaption>
+              <div class="h4">Laptop</div>
+              <p>Computer</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;computer&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/23-computer.jpg" alt="Computer"/>
+            <figcaption>
+              <div class="h4">Laptop</div>
+              <p>Computer</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;computer&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/24-computer.jpg" alt="Computer"/>
+            <figcaption>
+              <div class="h4">Laptop</div>
+              <p>Computer</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;food&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/26-food.jpg" alt="Food"/>
+            <figcaption>
+              <div class="h4">Fruit Salad</div>
+              <p>Food</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;food&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/27-food.jpg" alt="Food"/>
+            <figcaption>
+              <div class="h4">Oranges</div>
+              <p>Food</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;food&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/28-food.jpg" alt="Food"/>
+            <figcaption>
+              <div class="h4">Lemon Tea</div>
+              <p>Food</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;food&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/29-food.jpg" alt="Food"/>
+            <figcaption>
+              <div class="h4">Pasta</div>
+              <p>Food</p>
+            </figcaption>
+          </figure></a></div>
+      <div class="card" data-groups="[&quot;food&quot;]"><a href="image-detail.html">
+          <figure class="pp-effect"><img class="img-fluid" src="images/30-food.jpg" alt="Food"/>
+            <figcaption>
+              <div class="h4">Burger</div>
+              <p>Food</p>
+            </figcaption>
+          </figure></a></div>
+    </div>
+  </div>
+
+      </div>
     </section>
 @endsection
     
 @section('scripts')
+  <script src="{{ asset('assets/scripts/main.js?ver=1.2.0')}}"></script>
 @endsection
