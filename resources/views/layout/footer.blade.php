@@ -1,6 +1,26 @@
  <section class="section cta-section">
       <div class="container">
         <div class="row align-items-center">
+          <div class="col-md-12 mr-auto text-center text-md-left mb-5 mb-md-0">
+          <h2>Contact-Us</h2>
+            
+          </div>
+          <div class="form-group col-md-10">
+            <input type="email" class="form-control" name="email" placeholder="Enter your Email">
+          </div>
+
+          <div class="form-group col-md-2">
+            <button type="submit" class="btn btn-primary d-block w-100">Contact US</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        
           
         <div class="col-md-4 mb-4 mb-md-0">
           <h3>About SoftLand</h3>
@@ -43,15 +63,8 @@
           </div>
         </div>
       
-        </div>
+        
       </div>
-    </section>
-
- <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row"></div>
-
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
           <p class="copyright">&copy; Copyright CypherOcean. All Rights Reserved</p>
