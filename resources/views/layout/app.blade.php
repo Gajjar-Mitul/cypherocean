@@ -5,7 +5,7 @@
   @include('layout.meta')
 
   <title>CypherOcean - @yield('title')</title>
-  
+  <link href="{{ asset('images/fevicon.png') }}" rel="icon">
   @include('layout.styles')
 </head>
 

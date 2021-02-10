@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #000;
   transition: .3s all ease;
 }
 
@@ -358,6 +358,11 @@ section {
 
 .sticky-wrapper .site-navbar .site-logo a {
   color: #fff;
+}
+
+.site-logo img{
+  width: 252px;
+  margin-top: 2px;
 }
 
 .sticky-wrapper .site-navbar .site-menu > li > a {
