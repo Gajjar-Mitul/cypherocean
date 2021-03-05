@@ -30,9 +30,8 @@
         <div class="col-12 hero-text-image">
           <div class="row">
             <div class="col-lg-7 text-center text-lg-left">
-              <h1 data-aos="fade-right">Promote Your App with SoftLand</h1>
-              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit.</p>
+              <h1 data-aos="fade-right">Transform Your Business Now Through Technology</h1>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Evaluate key features of your product to achieve your business goals</p>
               <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Get started</a></p>
             </div>
             <div class="col-lg-5 iphone-wrap">
@@ -54,7 +53,7 @@
 
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-5" data-aos="fade-up">
-            <h2 class="section-heading">Save your time to using SoftLand</h2>
+            <h2 class="section-heading">What we do</h2>
           </div>
         </div>
 
@@ -64,8 +63,8 @@
               <div class="wrap-icon icon-1">
                 <span class="icon la la-users"></span>
               </div>
-              <h3 class="mb-3">Explore Your Team</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3 class="mb-3">Web Development</h3>
+              <p>Our developer team has a lot of experience developing complex web-based business systems with multiple users and roles.</p>
             </div>
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
@@ -73,8 +72,8 @@
               <div class="wrap-icon icon-1">
                 <span class="icon la la-toggle-off"></span>
               </div>
-              <h3 class="mb-3">Digital Whiteboard</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3 class="mb-3">Application Development</h3>
+              <p>As a development company, we can help you to build the perfect mobile-based application for almost every industry.</p>
             </div>
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
@@ -82,8 +81,8 @@
               <div class="wrap-icon icon-1">
                 <span class="icon la la-umbrella"></span>
               </div>
-              <h3 class="mb-3">Design To Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3 class="mb-3">UI/UX Designing</h3>
+              <p>Using UI/UX design we simply create a pixel-perfect customized structure that meets the screen and looks nice.</p>
             </div>
           </div>
         </div>
@@ -104,22 +103,22 @@
           <div class="col-md-4">
             <div class="step">
               <span class="number">01</span>
-              <h3>Sign Up</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3>Get started now</h3>
+              <p>We look forward to your questions and inquiries for building world-class services on demand.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="step">
               <span class="number">02</span>
-              <h3>Create Profile</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3>Reliable Service</h3>
+              <p>We give our clients the creative and technical service they need to succeed business.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="step">
               <span class="number">03</span>
-              <h3>Enjoy the app</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3>Project Delivery</h3>
+              <p>We provide quality development to our clients with accurate estimates for their projects.</p>
             </div>
           </div>
         </div>
@@ -131,10 +130,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4 mr-auto">
-            <h2 class="mb-4">Seamlessly Communicate</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
-              laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
-              dolore mollitia esse natus beatae.</p>
+            <h2 class="mb-4">Transparency</h2>
+            <p class="mb-4">Running a project with CypherOcean gives you full visibility into the process, and accurate time and cost reports at each incremental stage of development. Our focus is on clear communication to avoid surprises, and get things done faster.</p>
             <p><a href="#" class="btn btn-primary">Download Now</a></p>
           </div>
           <div class="col-md-6" data-aos="fade-left">
@@ -148,10 +145,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4 ml-auto order-2">
-            <h2 class="mb-4">Gather Feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
-              laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
-              dolore mollitia esse natus beatae.</p>
+            <h2 class="mb-4">Dedication</h2>
+            <p class="mb-4">CypherOcean is client-focused, and motivated to help you succeed. From the biggest ideas to the smallest detail, we strive to improve, optimize, and innovate every aspect of your product for quality and performance.</p>
             <p><a href="#" class="btn btn-primary">Download Now</a></p>
           </div>
           <div class="col-md-6" data-aos="fade-right">

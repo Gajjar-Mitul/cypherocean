@@ -23,9 +23,8 @@
         
           
         <div class="col-md-4 mb-4 mb-md-0">
-          <h3>About SoftLand</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
-            dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
+          <h3>About CypherOcean</h3>
+          <p>Trusted fully managed dedicated software development teams in India, we deliver world-class custom software development projects on demand for our clients worldwide.</p>
           <p class="social">
             <a href="#"><span class="icofont-twitter"></span></a>
             <a href="#"><span class="icofont-facebook"></span></a>
