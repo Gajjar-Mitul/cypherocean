@@ -44,3 +44,5 @@ Route::get('/logo_design', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+
+Route::post('/contact/store', 'App\Http\Controllers\ContactController@store')->name('contact/store');
