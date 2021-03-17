@@ -60,7 +60,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4 ml-auto order-2">
-            <h2 class="mb-4">Values-driven</h2>
+            <h2 class="mb-4">Values-Driven</h2>
 			<ul>
 				<li><h5 class="mb-4">Research, design, & build</h5></li>
 				<li><h5 class="mb-4">Transparent agreements</h5></li>

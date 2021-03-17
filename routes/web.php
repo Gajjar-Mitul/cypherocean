@@ -45,4 +45,6 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
+Route::post('/review-store','App\Http\Controllers\ReviewController@store')->name('review/store');
+
 Route::post('/contact/store', 'App\Http\Controllers\ContactController@store')->name('contact/store');

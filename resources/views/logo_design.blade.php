@@ -47,7 +47,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 mr-auto">
             <h2 class="mb-4">Seamlessly Communicate</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">Creative graphic designs help to construct an uncommon picture of an organization. Be it making a logo, planning and organization handout, making a creative pennant, or an imaginative video.</p>
             <p><a href="#">Read More</a></p>
           </div>
           <div class="col-md-6" data-aos="fade-left">
@@ -62,7 +62,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 ml-auto order-2">
             <h2 class="mb-4">Gather Feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">We work as a team with our clients on the issue of picking the best appropriate plan as indicated by their requirements. </p>
             <p><a href="#">Read More</a></p>
           </div>
           <div class="col-md-6" data-aos="fade-right">
@@ -77,7 +77,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 mr-auto">
             <h2 class="mb-4">Present Designs Inspiration</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">CypherOcean innovations offer all graphic planning types of assistance. We take an idea and transform it into an amazing and successful piece of correspondence. </p>
             <p><a href="#">Read More</a></p>
           </div>
           <div class="col-md-6" data-aos="fade-left">
@@ -92,7 +92,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 ml-auto order-2">
             <h2 class="mb-4">Powerful App Design </h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">CypherOcean Technologies has practical experience in administrations like Animations, Template planning, Logo planning, Brochure planning, corporate card planning, Branding, and bundle planning. We have encountered creators and engineers in planning projects with creative layouts.</p>
             <p><a href="#">Read More</a></p>
           </div>
           <div class="col-md-6" data-aos="fade-right">
